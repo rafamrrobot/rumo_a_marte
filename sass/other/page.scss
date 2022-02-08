@@ -1,0 +1,51 @@
+//reset - adicionando margin e padding em todos eo elementos
+* {
+    padding: 0px;
+    margin: 0px;
+  
+  }
+
+  
+   body {
+    background-image: url(../images/backgroundLp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #ffffff;
+        }
+  
+    
+
+    .container{
+        background-color: $background-color;
+        width: 450px;
+        height: auto;
+        color: #ffffff;
+        }
+
+     
+        .topLogo {
+            width: 285px;
+            }
+            
+            ​#paragraph {
+            margin-top: 8px;
+            margin-bottom: 8px;
+            }
+            
+            ​.btnSucess {
+            color: $button-color;
+            border: 1px solid $button-color;
+            }
+            
+            .btnSucess:hover {
+            background-color: #ff0043;
+            color: #ffffff;
+            }
+            
+            .footer {
+            margin-top: 30px;
+            margin-bottom: -30px;
+            color: #ffffff;
+            }
+  
